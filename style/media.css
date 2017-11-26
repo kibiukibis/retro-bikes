@@ -1,0 +1,182 @@
+
+@media (max-width: 1800px){
+	p{
+		font-size: 1.2vw;
+	}
+	.work-about p{
+		font-size: 0.9vw;
+		padding: 0 4vw;
+	}
+	h3{
+		font-size: 1.4vw;
+		margin-bottom: 1.5vw;
+	}
+	.line{
+		margin: 3vw auto;
+		margin-top: 2vw;
+	}
+	.icon{
+	width: 3vw;
+	margin-bottom: 1.5vw;
+	}
+	.buttons{
+		margin-top: 3vw;
+	}
+	.round{
+		padding: 0.5vw;
+		margin: 0.4vw;
+	}
+	.shop-btn{
+		margin: 4.5vw auto;
+		font-size: 1.2vw;
+
+	}
+	.address li{
+		font-size: 1.1vw;
+	}
+	.address ul li:first-child{
+	font-size: 1.3vw;
+	
+}
+	.contact{
+		padding: 8vw;
+	}
+	.contact img {
+    width: 8vw;
+	}
+
+
+}
+@media(max-width: 600px){
+	/*.main img{
+		transform: scale(1.2);
+
+	}*/
+	.work1-about-img,.work2-about-img{
+		display: none;
+	}
+	.work1, .work2{
+		flex-wrap: wrap;
+	}
+	.work1-img{
+		width: 100%;
+	}
+	.work2-img{
+		width: 50%;
+	}
+	.work-about{
+		width: 100%;
+		order: 1;
+	}
+	.work-about,.about-content{
+		padding: 20px;
+	}
+
+	.line{
+		margin: auto;
+		margin-top: 15px;
+	}
+	.icon{
+	width: 40px;
+	margin-bottom: 1.5vw;
+	}
+	.buttons{
+		margin-top: 3vw;
+	}
+	.round{
+		padding: 0.5vw;
+		margin: 0.4vw;
+	}
+
+	p{
+		font-size: 10px;
+		text-align: justify;
+	}
+	.work-about p{
+		font-size: 10px;
+		padding: 0 15px;
+	}
+	h3{
+		font-size: 12px;
+		margin-bottom: 1.5vw;
+	}
+	.shop-btn{
+		font-size: 12px;
+	}
+	.contact img{
+		width: 40px;
+	}
+	.footer{
+		padding: 10px 0;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-between;
+	}
+	.address{
+		order: 1;
+		height: 40px;
+		width: 50%;
+		margin-left: 20px;
+	}
+	.address li{
+		font-size: 8px;
+	}
+	.address ul li:first-child{
+		font-size: 10px;
+	}
+	.copyright{
+		order: 2;
+
+	}
+	.media{
+		width: 100%;
+		height: 40px;
+
+	}
+	.media .fa{
+		margin: 8px 3px;
+    	padding: 5px;
+    	font-size: 14px;
+	}
+	.media .fa-facebook{
+	padding: 5px 8px;
+}
+	.copyright {
+    padding-top: 10px;
+    height: 40px;
+    width: 40%;
+    font-size: 10px; 
+    padding-left: 30px;
+
+}
+.copyright:after {
+   
+    height: 25px;
+    width: 40px;
+    top: 0px;
+    left: 80px;
+}
+.contact h4{
+	padding: 20px;
+	font-size: 12px;
+}
+input[type=text]{
+	padding: 5px;
+	width: 160px;
+	height: 17px;
+	font-size: 12px;
+}
+input[type=submit]{
+	height: 31px;
+	width: 50px;
+	
+
+}
+
+	
+
+}
+
+
+
+
